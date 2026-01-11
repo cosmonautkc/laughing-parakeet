@@ -1,0 +1,24 @@
+:root {
+  --green-400: hsl(171, 66%, 44%);
+  --blue-300: hsl(233, 100%, 69%);
+
+  --grey-700: hsl(210, 10%, 33%);
+  --grey-300: hsl(201, 11%, 66%);
+
+  --text-body: 1.125rem;
+  --text-md: 1.5rem;
+  --text-heading: 2rem;
+
+  --font-main: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+
+  --fw-400: 400;
+  --fw-600: 600;
+
+  --sp-50: 0.5rem;
+  --sp-75: 0.75rem;
+  --sp-100: 1rem;
+  --sp-150: 1.5rem;
+  --sp-200: 2rem;
+  --sp-300: 3rem;
+  --sp-400: 4rem;
+}
