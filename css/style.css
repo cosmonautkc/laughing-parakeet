@@ -93,3 +93,17 @@ body {
   margin-top: var(--sp-700);
   margin-bottom: var(--sp-350);
 }
+
+.title {
+  font-size: var(--text-heading);
+  font-weight: var(--fw-600);
+  line-height: 120%;
+  color: var(--grey-700);
+}
+
+.subtitle {
+  font-size: var(--text-subtitle);
+  font-weight: var(--fw-600);
+  line-height: 120%;
+  color: var(--grey-700);
+}
