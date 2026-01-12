@@ -109,7 +109,7 @@ body {
 }
 
 .btn--ios {
-  margin-top: var(--sp-300);
+  margin-top: var(--sp-250);
   background-color: var(--green-400);
   box-shadow: 0 3px hsl(171, 74%, 36%);
 }
@@ -135,4 +135,8 @@ body {
   height: 7rem;
   margin-top: var(--sp-700);
   margin-bottom: var(--sp-350);
+}
+
+.hero p {
+  margin-top: var(--sp-100);
 }
