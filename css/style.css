@@ -95,7 +95,7 @@ body {
 }
 
 .title {
-  font-size: var(--text-heading);
+  font-size: var(--text-title);
   font-weight: var(--fw-600);
   line-height: 120%;
   color: var(--grey-700);
