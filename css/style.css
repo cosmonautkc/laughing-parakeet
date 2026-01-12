@@ -66,6 +66,7 @@ body {
   font-size: var(--text-body);
   font-weight: var(--fw-400);
   font-family: var(--font-main);
+  color: var(--grey-300);
 }
 
 .wrapper {
