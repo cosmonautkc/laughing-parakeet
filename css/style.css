@@ -111,13 +111,13 @@ body {
 .btn--ios {
   margin-top: var(--sp-250);
   background-color: var(--green-400);
-  box-shadow: 0 3px hsl(171, 74%, 36%);
+  box-shadow: 0 3px hsl(171, 74%, 36%), 0 12px 15px hsla(171, 100%, 57%, 0.2);
 }
 
 .btn--mac {
   margin-top: var(--sp-150);
   background-color: var(--blue-300);
-  box-shadow: 0 3px hsl(233, 45%, 55%);
+  box-shadow: 0 3px hsl(233, 45%, 55%), 0 12px 15px hsla(233, 56%, 47%, 0.2);
 }
 
 .hero {
