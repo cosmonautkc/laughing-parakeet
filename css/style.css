@@ -150,3 +150,7 @@ body {
 .snippets img {
   margin-bottom: var(--sp-350);
 }
+
+.feature {
+  margin-inline: var(--sp-50);
+}
