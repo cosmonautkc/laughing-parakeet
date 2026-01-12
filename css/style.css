@@ -90,6 +90,7 @@ body {
   font-weight: var(--fw-600);
   line-height: 120%;
   color: var(--grey-700);
+  text-wrap: pretty;
 }
 
 .item-title {
