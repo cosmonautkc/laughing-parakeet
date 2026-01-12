@@ -77,23 +77,6 @@ body {
   padding-inline: var(--sp-150);
 }
 
-.hero {
-  min-height: 100vh;
-  position: relative;
-}
-
-.bg-img {
-  position: absolute;
-  width: 100%;
-}
-
-.logo-header {
-  width: 7rem;
-  height: 7rem;
-  margin-top: var(--sp-700);
-  margin-bottom: var(--sp-350);
-}
-
 .title {
   font-size: var(--text-title);
   font-weight: var(--fw-600);
@@ -113,4 +96,21 @@ body {
   font-weight: var(--fw-600);
   line-height: 120%;
   color: var(--grey-700);
+}
+
+.hero {
+  min-height: 100vh;
+  position: relative;
+}
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+}
+
+.logo-header {
+  width: 7rem;
+  height: 7rem;
+  margin-top: var(--sp-700);
+  margin-bottom: var(--sp-350);
 }
