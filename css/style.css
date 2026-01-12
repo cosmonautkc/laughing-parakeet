@@ -99,6 +99,27 @@ body {
   color: var(--grey-700);
 }
 
+.btn {
+  width: 95%;
+  text-decoration: none;
+  font-weight: var(--fw-600);
+  color: white;
+  border-radius: 40px;
+  padding: var(--sp-75) var(--sp-400);
+}
+
+.btn--ios {
+  margin-top: var(--sp-300);
+  background-color: var(--green-400);
+  box-shadow: 0 3px hsl(171, 74%, 36%);
+}
+
+.btn--mac {
+  margin-top: var(--sp-150);
+  background-color: var(--blue-300);
+  box-shadow: 0 3px hsl(233, 45%, 55%);
+}
+
 .hero {
   min-height: 100vh;
   position: relative;
