@@ -146,3 +146,7 @@ body {
   margin-top: var(--sp-75);
   margin-bottom: var(--sp-400);
 }
+
+.snippets img {
+  margin-bottom: var(--sp-350);
+}
