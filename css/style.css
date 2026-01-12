@@ -141,3 +141,8 @@ body {
 .hero p {
   margin-top: var(--sp-100);
 }
+
+.snippets p {
+  margin-top: var(--sp-75);
+  margin-bottom: var(--sp-400);
+}
