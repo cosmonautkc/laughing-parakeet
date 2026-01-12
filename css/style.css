@@ -152,5 +152,18 @@ body {
 }
 
 .feature {
-  margin-inline: var(--sp-50);
+  margin-inline: var(--sp-75);
+}
+
+.access {
+  margin-top: var(--sp-600);
+  margin-bottom: var(--sp-300);
+}
+
+.access .subtitle {
+  padding-bottom: var(--sp-100);
+}
+
+.access img {
+  margin-block: var(--sp-300);
 }
