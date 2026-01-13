@@ -189,3 +189,7 @@ body {
   margin: 0 auto;
   padding-block: var(--sp-900);
 }
+
+.cta {
+  margin-bottom: var(--sp-900);
+}
