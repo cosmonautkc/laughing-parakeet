@@ -202,3 +202,24 @@ footer {
   width: 3rem;
   height: 3rem;
 }
+
+.quick-links {
+  flex-direction: column;
+}
+
+.quick-links,
+.socials {
+  display: flex;
+  gap: var(--sp-100);
+  margin-top: var(--sp-200);
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: var(--grey-700);
+}
+
+.socials {
+  gap: var(--sp-200);
+  margin-bottom: var(--sp-300);
+}
