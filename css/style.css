@@ -167,3 +167,16 @@ body {
 .access img {
   margin-block: var(--sp-400);
 }
+
+.supercharge .subtitle {
+  padding-block: var(--sp-100);
+}
+
+.supercharge img {
+  margin: 0 auto;
+  padding-block: var(--sp-300);
+}
+
+.tool h3 {
+  padding-bottom: var(--sp-100);
+}
