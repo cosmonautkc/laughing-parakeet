@@ -197,3 +197,8 @@ body {
 footer {
   background-color: hsl(201, 11%, 66%, 0.1);
 }
+
+.logo--footer {
+  width: 3rem;
+  height: 3rem;
+}
