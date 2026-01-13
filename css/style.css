@@ -131,7 +131,7 @@ body {
   width: 100%;
 }
 
-.logo-header {
+.logo--header {
   width: 7rem;
   height: 7rem;
   margin-top: var(--sp-700);
