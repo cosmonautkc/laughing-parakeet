@@ -135,6 +135,18 @@ body {
   box-shadow: 0 3px hsl(233, 45%, 55%), 0 12px 15px hsla(233, 56%, 47%, 0.2);
 }
 
+@media (min-width: 40rem) {
+  .btns {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn--ios,
+  .btn--mac {
+    margin-top: var(--sp-250);
+  }
+}
+
 .hero {
   min-height: 100vh;
   position: relative;
