@@ -103,6 +103,7 @@ body {
   font-weight: var(--fw-600);
   line-height: 120%;
   color: var(--grey-700);
+  padding-block: var(--sp-50);
 }
 
 .btn {
@@ -144,7 +145,7 @@ body {
 }
 
 .snippets p {
-  margin-bottom: var(--sp-400);
+  margin-bottom: var(--sp-200);
 }
 
 .snippets img {
