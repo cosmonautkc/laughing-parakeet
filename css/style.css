@@ -121,7 +121,7 @@ body {
   color: white;
   border-radius: 40px;
   padding-block: var(--sp-75);
-  padding-inline: clamp(2rem, calc(6rem - 3vw), 6rem);
+  padding-inline: clamp(2rem, calc(6rem - 4vw), 6rem);
 }
 
 .btn--ios {
