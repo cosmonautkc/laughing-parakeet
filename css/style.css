@@ -91,7 +91,7 @@ body {
 }
 
 .subtitle {
-  font-size: var(--text-subtitle);
+  font-size: clamp(1.75rem, 2.25vw, 3rem);
   font-weight: var(--fw-600);
   line-height: 120%;
   color: var(--grey-700);
@@ -100,7 +100,7 @@ body {
 }
 
 .item-title {
-  font-size: var(--text-item);
+  font-size: clamp(1.5rem, 2vw, 3rem);
   font-weight: var(--fw-600);
   line-height: 120%;
   color: var(--grey-700);
