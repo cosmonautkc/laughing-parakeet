@@ -169,6 +169,7 @@ body {
   .bg-img--desktop {
     display: block;
     position: absolute;
+    width: 100%;
   }
 }
 
