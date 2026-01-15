@@ -152,6 +152,13 @@ body {
   position: relative;
 }
 
+@media (min-width: 40rem) {
+  .hero {
+    min-height: 100%;
+    margin-bottom: var(--sp-800);
+  }
+}
+
 .bg-img {
   position: absolute;
   width: 100%;
