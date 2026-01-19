@@ -231,6 +231,18 @@ body {
   margin-bottom: var(--sp-350);
 }
 
+.features {
+  text-align: center;
+  max-width: 35ch;
+  margin-inline: auto;
+}
+
+@media (min-width: 80rem) {
+  .features {
+    text-align: left;
+  }
+}
+
 .feature {
   margin-inline: var(--sp-75);
 }
