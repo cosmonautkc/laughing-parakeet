@@ -198,15 +198,15 @@ body {
 }
 
 .wrapper--snippets {
-  grid-template-columns: min(45rem, 100%);
+  display: grid;
+  grid-template-columns: min(65ch, 100%);
   padding-inline: clamp(var(--sp-150), 2vw, var(--sp-300));
   justify-items: center;
 }
 
 @media (min-width: 80rem) {
   .wrapper--snippets {
-    display: grid;
-    grid-template-columns: 1fr min(65ch, 100% - var(--sp-300) * 2) 1fr;
+    grid-template-columns: 1fr 65ch 1fr;
   }
 
   .wrapper--snippets > * {
