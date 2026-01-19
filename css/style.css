@@ -269,6 +269,10 @@ body {
   grid-column: 2;
 }
 
+.supercharge p {
+  margin-bottom: var(--sp-200);
+}
+
 .supercharge img {
   margin: 0 auto;
   padding-block: var(--sp-300);
