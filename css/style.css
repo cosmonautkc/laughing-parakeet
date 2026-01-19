@@ -199,20 +199,16 @@ body {
 
 .wrapper--snippets {
   display: grid;
-  grid-template-columns: min(65ch, 100%);
+  grid-template-columns: 1fr min(65ch, 100%) 1fr;
   padding-inline: clamp(var(--sp-150), 2vw, var(--sp-300));
   justify-items: center;
 }
 
+.wrapper--snippets > * {
+  grid-column: 2;
+}
+
 @media (min-width: 80rem) {
-  .wrapper--snippets {
-    grid-template-columns: 1fr 65ch 1fr;
-  }
-
-  .wrapper--snippets > * {
-    grid-column: 2;
-  }
-
   .feature-section {
     grid-column: span 3;
     display: flex;
