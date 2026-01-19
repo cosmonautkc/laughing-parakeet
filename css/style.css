@@ -216,6 +216,9 @@ body {
   .feature-section {
     grid-column: span 3;
     display: flex;
+    align-items: center;
+    gap: var(--sp-700);
+    transform: translateX(-12vw);
   }
 }
 
