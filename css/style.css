@@ -261,12 +261,19 @@ body {
 .supercharge--wrapper {
   display: grid;
   grid-template-columns: 1fr min(35ch, 100%) 1fr;
-  padding-inline: var(--sp-700);
+  padding-inline: var(--sp-150);
   text-align: center;
+  align-items: first baseline;
 }
 
 .supercharge--wrapper > * {
   grid-column: 2;
+}
+
+@media (min-width: 60rem) {
+  .supercharge--wrapper {
+    padding-inline: var(--sp-700);
+  }
 }
 
 .supercharge p {
