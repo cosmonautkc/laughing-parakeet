@@ -200,7 +200,7 @@ body {
 .wrapper--snippets {
   display: grid;
   grid-template-columns: 1fr min(65ch, 100%) 1fr;
-  padding-inline: clamp(var(--sp-150), 2vw, var(--sp-300));
+  padding-inline: var(--sp-150);
   justify-items: center;
 }
 
