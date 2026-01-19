@@ -232,6 +232,7 @@ body {
 }
 
 .features {
+  max-width: 35ch;
   text-align: center;
   margin-inline: auto;
   display: flex;
