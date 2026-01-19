@@ -219,6 +219,10 @@ body {
   }
 }
 
+.snippets-info {
+  text-align: center;
+}
+
 .snippets p {
   margin-bottom: var(--sp-200);
 }
