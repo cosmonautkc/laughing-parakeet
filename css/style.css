@@ -363,6 +363,10 @@ footer {
   color: var(--grey-700);
 }
 
+.quick-links a:hover {
+  color: var(--green-400);
+}
+
 .socials {
   gap: var(--sp-200);
   margin-bottom: var(--sp-300);
