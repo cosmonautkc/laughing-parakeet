@@ -99,7 +99,7 @@ body {
 }
 
 .item-title {
-  font-size: clamp(1.5rem, 2vw, 3rem);
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
   font-weight: var(--fw-600);
   line-height: 120%;
   color: var(--grey-700);
