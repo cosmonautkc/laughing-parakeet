@@ -344,7 +344,8 @@ footer {
   .footer--wrapper {
     flex-direction: row;
     justify-content: space-around;
-    padding-inline: var(--sp-900);
+    margin-inline: var(--sp-900);
+    padding: var(--sp-200);
   }
 }
 
@@ -353,6 +354,12 @@ footer {
   height: 3rem;
   margin-top: var(--sp-250);
   flex-shrink: 0;
+}
+
+@media (min-width: 40rem) {
+  .logo--footer {
+    margin-top: 0;
+  }
 }
 
 .quick-links {
@@ -365,7 +372,6 @@ footer {
 .socials {
   display: flex;
   gap: var(--sp-100);
-  margin-top: var(--sp-300);
 }
 
 .socials,
@@ -391,6 +397,7 @@ footer {
     text-align: start;
     margin-left: var(--sp-800);
     margin-right: auto;
+    margin-block: auto;
   }
 }
 
@@ -401,6 +408,12 @@ footer {
   align-items: center;
   cursor: pointer;
   fill: #4c545c;
+}
+
+@media (min-width: 40rem) {
+  .socials {
+    margin-block: 0;
+  }
 }
 
 .icon:hover {
