@@ -224,6 +224,12 @@ body {
   }
 }
 
+@media (min-width: 93rem) {
+  .feature-section {
+    transform: none;
+  }
+}
+
 .snippets-info {
   text-align: center;
   margin-bottom: var(--sp-200);
