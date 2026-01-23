@@ -63,7 +63,7 @@ h6 {
 }
 
 body {
-  font-size: var(--text-body);
+  font-size: clamp(1rem, 1vw, 1.5rem);
   font-weight: var(--fw-400);
   font-family: var(--font-main);
   color: var(--grey-300);
