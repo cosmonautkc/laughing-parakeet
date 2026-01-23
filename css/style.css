@@ -347,14 +347,20 @@ footer {
 }
 
 .quick-links {
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: var(--sp-100);
   text-align: center;
 }
 
-.quick-links,
 .socials {
   display: flex;
   gap: var(--sp-100);
+  margin-top: var(--sp-300);
+}
+
+.socials,
+.quick-links {
   margin-top: var(--sp-300);
 }
 
@@ -365,6 +371,15 @@ footer {
 
 .quick-links a:hover {
   color: var(--green-400);
+}
+
+@media (min-width: 40rem) {
+  .quick-links {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-flow: column;
+    text-align: start;
+  }
 }
 
 .socials {
