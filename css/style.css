@@ -383,8 +383,9 @@ footer {
 
 @media (min-width: 40rem) {
   .quick-links {
-    display: grid;
     grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: var(--sp-400);
     grid-auto-flow: column;
     text-align: start;
   }
