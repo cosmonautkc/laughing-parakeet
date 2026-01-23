@@ -344,7 +344,7 @@ footer {
   .footer--wrapper {
     flex-direction: row;
     justify-content: space-around;
-    padding-inline-start: var(--sp-900);
+    padding-inline: var(--sp-900);
   }
 }
 
