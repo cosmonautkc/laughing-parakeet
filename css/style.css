@@ -340,7 +340,7 @@ footer {
   align-items: center;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 75rem) {
   .footer--wrapper {
     flex-direction: row;
     justify-content: space-around;
@@ -356,7 +356,7 @@ footer {
   flex-shrink: 0;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 75rem) {
   .logo--footer {
     margin-top: 0;
   }
@@ -388,7 +388,7 @@ footer {
   color: var(--green-400);
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 75rem) {
   .quick-links {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
@@ -410,7 +410,7 @@ footer {
   fill: #4c545c;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 75rem) {
   .socials {
     margin-block: 0;
   }
